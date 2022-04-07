@@ -1,12 +1,10 @@
 h1 {
- background-color: pink
- color: #ea94bd  
+ color: #ea94bd;  
 }
 
 body {
-  background-color: #f8d1ee
-  
-  
+  background-color: #f8d1ee;
+   margin: 10% 20%;
 }
 
 .contact {
