@@ -1,0 +1,37 @@
+h1 {
+ background-color: pink
+ color: #ea94bd  
+}
+
+body {
+  background-color: #f8d1ee
+  
+  
+}
+
+.contact {
+  text-align: center;
+  color: #BF5A96;
+  line-height: .4;
+  font-family: Garamond, serif;
+}
+
+h2 {
+  text-align: center;
+  color: #ea94bd;
+  font-family: Garamond, serif;
+}
+
+.job {
+  color: #A70749;
+  font-family: Garamond, serif;
+}
+
+li {
+  color: #D94496;
+}
+
+img {
+  width: 500px;
+  
+}
