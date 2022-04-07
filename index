@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+ <div class="contact">
+  <h1>Alegra Leeson </h1>
+  <h3>510-862-6121 </h3>
+  <h3>alegraleeson@gmail.com </h3>
+  </div>
+  <br>
+  <div class=experience>
+   <h2>EXPERIENCE</h2>
+
+   <h3 class="job">Marymount Villa Assisted Living and Memory Care, Business Office Director ● April 2016 – Present</h3>
+   <ul>
+    <li>Bookkeeping/accounting a/p & a/r</li>
+    <li>Assist with payroll</li>
+    <li>Answer multi-line phones, transfer calls, take messages</li>
+    <li>Interact with public daily; assist residents and visitors</li>
+    <li>Make copies, send faxes</li>
+    <li>Graphic design: make fliers, take and edit photos, design monthly newsletters/calandars</li>
+    <li>Technical support: assist office admin with all office equipment and computer programs</li>
+    <li>Order supplies</li>
+    <li>Hire, supervise and train front desk staff</li>
+    <li>Compose official letters</li>
+   </ul>
+
+   <h3 class="job">Joann Fabric and Crafts, Cashier, 2014-2016</h3> 
+    <ul>
+     <li>Cashier; handled cash at register </li>
+     <li>Restocked items and recovered store </li>
+     <li>Kept front of store clean </li>
+     <li>Cut fabric </li>
+     <li>Assisted customers via phone and in store</li>
+     <li>Answered and directed phones </li>
+    </ul>
+
+   <h3 class="job">ARG! Cartoon Animation Studio, intern, 2010-2011</h3> 
+    <ul>
+     <li>flash animation </li>
+     <li>color </li>
+    </ul>
+
+   <h3 class="job">Chico State Animation Studio, intern, 2009</h3>
+    <ul>
+     <li>Made 3d models of buldings in google sketch up </li>
+    </ul>
+   
+   <h3 class="job">Dr. Grant D.D.S., Front Desk Assistant, 2005-2006</h3>
+    <ul>
+     <li>Assisted patients, answered phones</li>
+     <li>Typed daily schedule, balanced daily till, filed charts </li>
+     <li>Kept front desk and waiting room tidy </li>
+     <li>Made copies </li>
+    </ul>
+  </div>
+ <h2>EDUCATION</h2>
+  <h3 class="job">B.A., Applied Computer Graphics, Fine Art minor Chico State University 2010</h3>   
+
+
+ <h2>SKILLS</h2>
+  <ul>
+   <li>Microsoft Office Suite of Programs </li>
+   <li>Quickbooks</li>
+   <li>Adobe CS-CS6 Suite of Programs </li>
+   <li>Bookkeeping </li>
+   <li>office management </li>
+   <li>Windows & MAC operating systems</li>
+  </ul>
+  
+  <img src="selfie.jpg" alt="Selfie">
+
+</body>
+</html>
