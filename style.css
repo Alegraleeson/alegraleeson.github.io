@@ -32,7 +32,18 @@ li {
   color: #D94496;
 }
 
-.image {
+.grid-container {
+  display: grid;
+  grid-template: 1fr 1fr 1fr/1fr 1fr 1fr;
+  color: #D94496;  
+}
+
+.grid-item {
+  text-align: center;
+  margin: 2px;
+}
+
+img {
   display: block;
   margin-left: auto;
   margin-right: auto;
