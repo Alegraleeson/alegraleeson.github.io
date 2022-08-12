@@ -1,0 +1,205 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inika&family=Jockey+One&display=swap');
+
+html {
+    height: 100%;
+}
+
+body {
+    
+    
+    background-color: black;
+    color: white;
+    font-family: 'Inika', serif;
+    /* position: fixed; */
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 18% 82%;
+    height: 100%;
+
+}
+
+.navBar {   
+    background-image: url("./Backgrounds/paper-1089130-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    color: black;
+    height: 100vh;
+    width: 50%;
+    /* margin-top: 25px; */
+    position: fixed;
+   
+}
+
+.navItem {
+    display: block;
+    margin: 25px 25px 25px 50px;
+    font-family: 'Inika', serif;
+    font-size: 36px;
+    color: black;
+    /* height: 100vh; */
+}
+
+.navName {
+    margin: 2px 25px 5px 50px;
+
+}
+
+#navTop {
+    margin-top: 25px;
+
+}
+
+#profilePic {
+    object-fit: fill;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid purple;
+    margin: 25px 25px 0px 25px;
+
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page {
+    height: 100vh;
+    /* margin: 30px 0px 10px 0px; */
+}
+
+.secHead {
+    font-size: 64px;
+    font-weight: bold;
+    margin: 10px 25px 25px 25px;
+    display: block;
+}
+
+.header {
+    font-family: 'Jockey One', sans-serif;
+    font-weight: bold;
+    font-size: 96px;
+    margin-top: 40vh;
+    height: 100vh;
+}
+
+p {
+    margin: 30px 30px 30px 30px;
+    font-size: 24px;
+}
+
+/* .about {
+    height: 100%;
+} */
+
+.aboutImg {
+    height: 250px;
+    display: inline;
+    margin: 0px 25px 0px 25px;
+}
+
+/* .skills {
+    margin-top: 25px;
+} */
+
+#skillsContainer {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.subHead {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 25px 25px 25px 25px;
+}
+
+i {
+    font-size: 75px;
+    margin: 25px 25px 25px 25px;
+    padding: 10px 10px 10px 10px;
+    color:blueviolet;
+}
+
+.icon {
+    height: 75px;
+    width: 75px;
+    padding: 10px 10px 10px 10px;
+    color:blueviolet;
+}
+
+.projectImg {
+    /* height: 270px; */
+    width: 500px;
+    /* height: 300px; */
+    margin: 25px 15px 0px 30px;
+    
+
+}
+
+.projectHead {
+    font-size: 36px;
+    margin: 50px 0px 0px 25px;
+}
+
+.projectSubHead {
+    font-size: 26px;
+    margin: 0px 0px 0px 30px;
+
+}
+
+
