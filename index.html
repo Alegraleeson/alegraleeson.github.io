@@ -10,11 +10,12 @@
 </head>
 <body>
     <main class="grid-container">
-        <section class="left">
+        <section class="head">
             <div class="navBar">
-                <a href="#home"><span id="navTop" class="navItem navName">Alegra</span></a>
-                <a href="#home"><span class="navItem navName">Leeson</span></a>
-                <a href="#home"><img id="profilePic" src="./Backgrounds/1516882473755.jpg" alt="profile picture"></a>
+                <a id="homeName" href="#home">
+                    <span id="navTop" class="navItem navName">Alegra Leeson</span>
+                    <span class="navItem navName">Software Engineer</span>
+                </a>
                 <a href="#about"><span class="navItem">about</span> </a>
                 <a href="#skills"><span class="navItem">skills</span></a>
                 <a href="#projects"><span class="navItem">projects</span></a>
@@ -22,35 +23,54 @@
              
             </div>
         </section>
+        <section class="left">
+            <a href="#home"><img id="profilePic" src="./Backgrounds/1516882473755.jpg" alt="profile picture"></a>
+
+            
+
+            
+
+        </section>
 
         <section class="right">
-            <a id="home"></a>
-            <div class="header page">
+            <a id="home">
+            
+            
+            <div class="home page">
+                
                 <h2>Alegra Leeson</h2>
                 <h2>Software Engineer</h2>
         
             </div>
+            
+        </a>
 
-            <a id="about"></a>         
-            <div class="about page">
-                <h1 class="secHead">About</h1>
+    </main>
 
-                <img class="aboutImg" src="./Backgrounds/49276571316_4edaafaf46_o.JPG" alt="">
-                <img class="aboutImg" src="./Backgrounds/51987623019_c6ae8004f8_c.jpg" alt="">
+            <a id="about">
+            <div class="aboutL about page">
+                <h1 class="secHead aboutL">About</h1>
 
-                
-                <p>I attended Chico State University and graduated with a bachelor’s in Applied Computer Graphics and a minor in fine art.  After that, I worked as a business office manager at Marymount Villa, an assisted living facility (senior home) where she handled bookkeeping, a/r/ a/p, managed front desk staff and assisted the HR department with payroll. Then I moved to Minnesota and became a stay at home mom to two young children and sewed commissions on the side.  While I enjoyed all of those positions, I really enjoyed problem solving and automating processes using programming. I also enjoys the creativity of building applications within the constraints of code. I plan to combine my business and art and design background with the software engineering skills I'm learning.
+                <img class="aboutImg aboutL" src="./Backgrounds/49276571316_4edaafaf46_o.JPG" alt="">
+                <img class="aboutImg aboutL" src="./Backgrounds/51987623019_c6ae8004f8_c.jpg" alt="">
+
+            </div>         
+            <div class="aboutR about page"> 
+                <p>I attended Chico State University and graduated with a bachelors in Applied Computer Graphics and a minor in fine art.  After that, I worked as a business office manager at Marymount Villa, an assisted living facility (senior home) where I handled bookkeeping, a/r/ a/p, managed front desk staff and assisted the HR department with payroll. Then I moved to Minnesota and became a stay at home mom to two young children and sewed commissions on the side.  While I enjoyed all of those positions, I really enjoyed problem solving and automating processes using programming. I also enjoys the creativity of building applications within the constraints of code. I plan to combine my business and art and design background with the software engineering skills I'm learning.
                 </p>
         
                 <p> My hobbies include sewing, crafting, cinema, and taking my children to the park.</p>
         
             
             </div>
+        </a>
 
 
-            <a id="skills"></a>        
-            <div class="skills page">
+            <a id="skills">        
+            <div class="skills page skillsL">
                 <h1 class="secHead">Skills</h1>
+                </div>
+                <div class="skills page skillsR">
                 <span id="skillsContainer" class="languages">
                     
                     <i class="devicon-javascript-plain"></i>
@@ -76,40 +96,78 @@
                 
         
             </div>
+        </a>
 
 
-            <a id="projects"></a>        
-            <div class="projects page">
-                <h1 class="secHead">Projects</h1>
-                <section class="Dinner-Picker">
-                    <h3 class="projectHead">Dinner Picker App</h3>
-                    <div class="projectSubHead">
-                        <a href="https://bp3demo.herokuapp.com/index.html">Link</a>
-                        /
-                    <a href="https://github.com/Alegraleeson/dinner-picker">Github</a>
-
+            <a id="projects" >
+                <div class="projects">
+                    <div class="projectsL page">
+                        <h1 id="projectHeading" class="secHead">Projects</h1>
                     </div>
-                    <img class="projectImg" src="./Backgrounds/Dinner-Picker-Screenshot.png" alt="">
-                    <img class="projectImg" src="./Backgrounds/Dinner-Picker-Screenshot2.png" alt="">
-                    <p class="desc">This is an app to help you decide what to have for dinner.  The dinner-picker randomly selects an item from a list for you. It uses html, css, javascript, node, axios, and a postgre sql database.  You can save, add, and delete items to create your ultimate weekly dinner plan.</p>
-                </section>
-                
+                    <div class="page projectsR">
+                        <section class="Dinner-Picker project">
+                            <h3 class="projectHead">Dinner Picker App</h3>
+                            <div class="projectSubHead">
+                                <a href="https://bp3demo.herokuapp.com/index.html">Link</a>
+                                /
+                            <a href="https://github.com/Alegraleeson/dinner-picker">Github</a>
         
-            </div>
-
-
-            <a id="contact"></a>
-            <div class="contact page">
-                <h1 class="secHead">Contact</h1>
-                <a href="www.linkedin.com/in/alegraleeson"><i class="devicon-linkedin-plain"></i></a>
-                <a href="https://github.com/Alegraleeson"><i class="devicon-github-original-wordmark"></i></a>
-                <a href=""><img class="icon" src="./Backgrounds/mail-1454734_1920.png" alt="e-mail icon"></a>
-                <a href="./Backgrounds/Alegra Leeson Software Developer Resume.pdf"><img class="icon" src="./Backgrounds/download-1915749_1280.png" alt="download resume icon"></a>
-        
-            </div>
+                            </div>
+                            <img class="projectImg" src="./Backgrounds/Dinner-Picker-Screenshot.png" alt="">
+                            <img class="projectImg" src="./Backgrounds/Dinner-Picker-Screenshot2.png" alt="">
+                            <p class="desc">This is an app to help you decide what to have for dinner.  The dinner-picker randomly selects an item from a list for you. It uses html, css, javascript, node, axios, and a postgre sql database.  You can save, add, and delete items to create your ultimate weekly dinner plan.</p>
+                        </section>
     
-        </main>
+                    </div>
+
+                </div>
+                
+
+            </a>
+                <!-- <div class="head"></div> -->
+                
+                    
+                
+                    
+            
+               
+
+                
+            
+        
+
+
+        <a id="contact">
+            <div class = "contacts">
+                <div class="contact page contactL">
+                    <h1 class="secHead">Contact</h1>
+                </div>
+               
+                <div class="contact contactR page">
+                        <a href="https://www.linkedin.com/in/alegraleeson"><i class="devicon-linkedin-plain"></i></a>
+                        <a href="https://github.com/Alegraleeson"><i class="devicon-github-original-wordmark"></i></a>
+                        <a href=""><img class="icon" src="./Backgrounds/mail-1454734_1920.png" alt="e-mail icon"></a>
+                        <a href="./Backgrounds/Alegra Leeson Software Developer Resume.pdf"><img class="icon" src="./Backgrounds/download-1915749_1280.png" alt="download resume icon"></a>
+                
+                </div>
+                
+            </div>
+            
+
+
+            
+        </a>
+    
+        
         </section>
+        <div class="footer">
+            <a class="navItem" href="#home" >Alegra Leeson/Software Engineer</a>
+            <a class="navItem" href="https://www.linkedin.com/in/alegraleeson">LinkedIn</a>
+            <a class="navItem" href="https://github.com/Alegraleeson">GitHub</a>
+            <a class="navItem" href="">E-Mail</a>
+            <a class="navItem" href="./Backgrounds/Alegra Leeson Software Developer Resume.pdf">Resume</a>
+
+        </div>
         
     
         
