@@ -444,18 +444,23 @@ a:visited {
     }
 
     .navBar {   
-        /* background-image: url("./Backgrounds/paper-1089130-removebg.png");
-        background-position: top -50% left;
+        background-image: url("./Backgrounds/paper-1089130-removebg.png");
+        background-position: top -150px left;
         top: 0px;
         left: 0px;
-        background-size: cover;  */
-        height: 100px;
+        background-size: cover; 
+        background-repeat: repeat;
+        height: 200px;
         width: 100%;
         position: fixed;
         display: flex;
         justify-content: flex-end;
         flex-wrap: wrap;
        
+    }
+
+    #softwareEngineer {
+        font-size: 0px;
     }
 
     .page {
