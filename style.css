@@ -142,8 +142,8 @@ body {
 /* } */
 
 .navBar {   
-    background-image: url("./Backgrounds/paper-1089130-removebg.png");
-    background-position: top -300px right;
+    background-image: url("./Backgrounds/paper-1089130-removebg2.png");
+    background-position: top 98% left;
     background-size: cover; 
     position: absolute;
   top: 0px;
@@ -444,19 +444,24 @@ a:visited {
     }
 
     .navBar {   
-        background-image: url("./Backgrounds/paper-1089130-removebg.png");
-        background-position: top -150px left;
+        background-image: url("./Backgrounds/paper-1089130-removebg2.png");
+        background-position: top 98% left;
         top: 0px;
         left: 0px;
         background-size: cover; 
-        background-repeat: repeat;
-        height: 200px;
+        /* background-repeat: repeat; */
+        height: 15%;
         width: 100%;
         position: fixed;
         display: flex;
         justify-content: flex-end;
         flex-wrap: wrap;
        
+    }
+
+    .navItem {
+        margin-top: 0px;
+        margin-bottom: 0px;
     }
 
     #softwareEngineer {
