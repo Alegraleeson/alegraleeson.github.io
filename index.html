@@ -5,196 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alegra Leeson</title>
+    <link rel="stylesheet" href="./reset.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-    <main class="grid-container">        
-        <section  class="head show">
-            <img id="downArrow" hidden="hidden" src="./Backgrounds/arrow-2079321_640.png" alt="">
-            <section id="header">
-                <!-- <img id="navImg" src="./Backgrounds/paper-1089130-removebg.png"> -->
-                <div  class="navBar">
-                    <a id="homeName" href="#home">
-                        <span id="navTop" class="navItem navName">Alegra Leeson</span>
-                        <span id="softwareEngineer" class="navItem navName">Software Engineer</span>
-                    </a>
-                    <a href="#about"><span class="navItem">about</span> </a>
-                    <a href="#skills"><span class="navItem">skills</span></a>
-                    <a href="#projects"><span class="navItem">projects</span></a>
-                    <a href="#contact"><span id="navContact" class="navItem">contact</span></a>       
-                 
-                </div>
-
-            </section>
+        <!-- navbar -->
+<nav class="navbar">
+    <div class="topnav">
+        <img id="home-link" class="logo link" src="img/Alegra Leeson (3)-PhotoRoom.png" alt="Alegra Leeson Software Engineer logo"/>
+        <div class="dropdown">
+            <a href="javascript:void(0);" class="icon dropBtn-container" onclick="dropdown(this)">
             
-        </section>
-        <section class="left">
-            <a href="#home"><img id="profilePic" src="./Backgrounds/1516882473755.jpg" alt="profile picture"></a>
-
-            
-
-            
-
-        </section>
-
-        <section class="right">
-            <a id="home">
-            
-            
-            <div class="home page">
-                
-                <h2>Alegra Leeson</h2>
-                <h2>Software Engineer</h2>
-                <p>I design and code with an eye on usability and accessibilty</p>
-        
-            </div>
-            
-        </a>
-        <img id="upArrow" hidden="hidden" src="./Backgrounds/arrow-2079321_640.png" alt="">
-        <div id="footer" hidden="" class="footer show">
-            <div class="footer">
-                <a class="footItem" href="#home" target="_blank" rel="noreferrer noopener"> Created by Alegra Leeson © 2022</a>
-                <a class="footItem" href="https://www.linkedin.com/in/alegraleeson" target="_blank" rel="noreferrer noopener">LinkedIn</a>
-                <a class="footItem" href="https://github.com/Alegraleeson" target="_blank" rel="noreferrer noopener">GitHub</a>
-                <a class="footItem" href="mailto:alegraleeson@gmail.com" target="_blank" rel="noreferrer noopener">E-Mail</a>
-                <a class="footItem" href="./Backgrounds/Alegra Leeson Software Developer Resume.pdf" target="_blank" rel="noreferrer noopener">Resume</a>
-
-            </div>
-            
+        <!-- <div class="dropBtn-container" onclick="myFunction(this)"> -->
+                <div class="bar1 dropBtn"></div>
+                <div class="bar2 dropBtn"></div>
+                <div class="bar3 dropBtn"></div>
+    <!-- </div> -->
+            </a>
+            <ul id="myLinks" class="link-group dropdown-content">
+                <!-- <li id="home-link" class="link active`"><a href="#">Alegra Leeson</a></li> -->
+                <li id="projects-link" class="link"><a href="#">projects</a></li>
+                <li id="about-link" class="link"><a href="#">about</a></li>
+                <li id="contact-link" class="link"><a href="#">contact</a></li>
+            </ul>
 
         </div>
+    </div>
+</nav>
+    <main>
+        <h1 id="header" class="header">Test</h1>
+        <section id="content-container" class="active">
+            Content
 
+        </section>
     </main>
 
-            <a id="about" class="page">
-            <div class="aboutL about page">
-                <h1 class="secHead aboutL">About</h1>
-
-                <img class="aboutImg aboutL" src="./Backgrounds/49276571316_4edaafaf46_o.JPG" alt="">
-                <img class="aboutImg aboutL" src="./Backgrounds/51987623019_c6ae8004f8_c.jpg" alt="">
-
-            </div>         
-            <div class="aboutR about page">
-                <p id="facts"><span class="text info">Location: Minneapolis, Minnesota</span>
-                    <span class="text info">Pronouns: She/Her</span>
-                    <span class="text info">Work Status: Open to Work</span>
-                </p>
-                
-                <p id="hobbies"> Hobbies: sewing, crafting, cinema, and taking my children to the park.</p>
-                              
-                <p>Hello!  My name is Alegra and I love creating things!  My love of coding and web design started way back in '98, when 10 year old me learned hex to edit animals in a computer game called Petz and then learned html to make geocities websites to share downloads of my edits with the world.  I went to college for computer animation, and got a bachelor's in Applied Computer Graphics, with a minor in fine art.  While in college, I felt  wanted to switch from the art side to the coding side, but felt I couldn't switch majors due to the quickly rising college costs at the time.  I took a position working at Marymount Villa as the Business Office Manager, and found myself quickly learning new technologies and creating ways to automate processes. Fast forward to today, I managed to accepted  into a sponsored coding bootcamp where I learned full stack web development as wells as a lot about working in tech.  Responsivness, functionality, and accessibilty are of great importance to me.  I'm currently seeking work. If you're seeking someone who's reliable, hardworking, a great problem solver, and adaptable, then I'd love to work for you.  I also love comments, tips, and feedback.</p>
-
-                <!-- <h2 id="contactAbout" class="text">Contact Me!</h2> -->
-                
-        
-                
-        
-            
-            </div>
-        </a>
-
-
-        <a id="skills" class="page">
-            <div class="skills skillsL">
-                <h1 class="secHead">Skills</h1>
-                
-            </div>
-            <div class="skills skillsR">
-                <span id="skillsContainer" class="languages skillsR">
-                    
-                    
-                    <span class="icons"><i class="devicon-javascript-plain"></i>Javascript</span>
-                    <span class="icons"><i class="devicon-java-plain-wordmark"></i>Java</span>
-                    <span class="icons"><i class="devicon-html5-plain-wordmark"></i>HTML5</span>
-                    <span class="icons"><i class="devicon-css3-plain-wordmark"></i>CSS3</span>
-                    <span class="icons"><i class="devicon-nodejs-plain"></i>Node.js</span>
-                    <span class="icons"><i class="devicon-sequelize-plain-wordmark"></i>Sequelize</span>
-                    <span class="icons"><i class="devicon-postgresql-plain-wordmark"></i>Postgre SQL</span>
-                    <span class="icons"><i class="devicon-express-original"></i>Express</span>
-                    <span class="icons"><i class="devicon-vscode-plain-wordmark"></i>VS Code</span>
-                    <span class="icons"><i class="devicon-git-plain-wordmark"></i>Git</span>
-                    <span class="icons"><i class="devicon-github-original-wordmark"></i>Github</span>
-                    <span class="icons"><i class="devicon-heroku-original-wordmark"></i>Heroku</span>
-                    
-                </span>
-            </div>
-            <span class="skillsL2"> 
-                    <h3 class="subHead skillsL">Learning</h3>
-            </span>
-            <span class="languages skillsR2">
-                <span class="icons"><i class="devicon-python-plain-wordmark"></i>Python</span>
-                <span class="icons"><i class="devicon-react-original-wordmark"></i>React</span>
-                
-                <p>And adding more all the time!</p>
-                
-            </span>
-                
-        </a>        
-            
-            
-
-            <a id="projects" class="page" >
-                <div class="projects page">
-                    <div class="projectsL">
-                        <h1 id="projectHeading" class="secHead">Projects</h1>
-                    </div>
-                    <div class="projectsR">
-                        <section class="Dinner-Picker project">
-                            <h3 class="projectHead">Dinner Picker App</h3>
-                            <div class="projectSubHead">
-                                <a href="https://bp3demo.herokuapp.com/index.html">Website</a>
-                                /
-                                <a href="https://github.com/Alegraleeson/dinner-picker">Github</a>
-                                /
-                                <a href="https://youtu.be/BsKYoDPo_6M">Video Demo</a>
-
-        
-                            </div>
-                            <a href="https://bp3demo.herokuapp.com/index.html"><img class="projectImg" src="./Backgrounds/Dinner-Picker-Screenshot.png" alt=""></a>
-                            <a href="https://bp3demo.herokuapp.com/index.html"><img class="projectImg" src="./Backgrounds/Dinner-Picker-Screenshot2.png" alt=""></a>
-                            <p class ="desc">TECH STACK: HTML5, CSS3, JAVASCRIPT, NODE, AXIOS, POSTGRE SQL</p>
-                            <p class="desc">This is an app to help you decide what to have for dinner.  The dinner-picker randomly selects an item from a list for you. You can save, add, and delete items to create your ultimate weekly dinner plan.</p>
-                        </section>
     
-                    </div>
-
-                </div>
-                
-
-            </a>
-          
-        <a id="contact">
-            <div class = "contacts">
-                <div class="contact page contactL">
-                    <h1 class="secHead">Contact</h1>
-                    <p>If you're seeking someone who's reliable, hardworking, a great problem solver, and adaptable, then I'd love to work for you. I also love comments, tips, and feedback.</p>
-                </div>
-               
-                <div class="contact contactR page">
-                    <a class ="icons" href="mailto:alegraleeson@gmail.com" target="_blank" rel="noreferrer noopener"><img class="icon" src="./Backgrounds/mail-1454734_1920.png" alt="e-mail icon">alegraleeson@gmail.com</a>
-                    <a id="resume" class="icons" href="./Backgrounds/Alegra Leeson Software Developer Resume.pdf" target="_blank" rel="noreferrer noopener"><img class="icon" src="./Backgrounds/download-1915749_1280.png" alt="download resume icon"> Resume</a>
-                        <span >                            
-                            <a class="icons" href="https://www.linkedin.com/in/alegraleeson" target="_blank" rel="noreferrer noopener"><i class="devicon-linkedin-plain"><div id="linkedin">LinkedIn</div></i></a>
-                        </span> 
-                        <span class="icons">
-                            <a class="icons" href="https://github.com/Alegraleeson" target="_blank" rel="noreferrer noopener"><i class="devicon-github-original-wordmark"> </i></a>
-                        </span>
-                        
-                        
-                
-                </div>
-                
-            </div>
-            
 
 
-            
-        </a>
-    
-        
-        </section>
-
-    <script src="index.js"></script>
+    <script src="home.js"></script>
 </body>
 </html>
