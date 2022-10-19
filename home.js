@@ -79,9 +79,9 @@ console.log("connected successfully!")
     
 // }
 
-// function showAlert() {
-//     alert ("Coming soon!");
-//   }
+function showAlert() {
+    alert ("Coming soon!");
+  }
 
 // soon.addEventListener('click', showAlert)
 
@@ -138,7 +138,7 @@ function displayProjects (){
                 <div class="project-btn-grp">
                     <a class="project-btn github" href="https://github.com/Alegraleeson/dinner-picker" target="_blank" rel="noreferrer noopener">github repo</a>
                     <a class="project-btn github" href="https://www.youtube.com/watch?v=SwobOo3NSX4" target="_blank" rel="noreferrer noopener">view demo</a>
-                    <a id="coming-soon" class="project-btn live">see live</a>
+                    <a id="coming-soon" class="project-btn live" onclick="showAlert()" >see live</a>
                 </div>
             </div>
     </div>
