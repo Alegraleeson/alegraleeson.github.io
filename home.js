@@ -168,7 +168,7 @@ function displayAbout (){
             <p class="about-text">Hello!  My name is Alegra and I love creating things!</p>  
             <p class="about-text">My love of coding and web design started way back in '98, when 10 year old me learned hex to edit animals in a computer game called Petz and then learned html to make geocities websites to share downloads of my edits with the world.  </p>
             <p class="about-text">I went to college for computer animation, and got a bachelor's in Applied Computer Graphics, with a minor in fine art.  While in college, I felt  wanted to switch from the art side to the coding side, but felt I couldn't switch majors due to the quickly rising college costs at the time.  I took a position working at Marymount Villa as the Business Office Manager, and found myself quickly learning new technologies and creating ways to automate processes. </p>
-            <p class="about-text">Fast forward to today, I managed to accepted  into a sponsored coding bootcamp where I learned full stack web development as well as a lot about working in tech.  Responsivness, functionality, and accessibilty are of great importance to me. </p>
+            <p class="about-text">Fast forward to today, I managed to get accepted  into a sponsored coding bootcamp where I learned full stack web development as well as a lot about working in tech.  Responsiveness, functionality, and accessibilty are of great importance to me. </p>
 
         </div>
         
@@ -180,10 +180,7 @@ function displayAbout (){
     <div class="skills-container">
         <!-- <div class="skill-card">
             <img src="img/html.png" class="skill-img" alt=""> -->
-            <!-- <div class="skill-level">98%</div> -->
-            <!-- <h1 class="skill-name">HTML</h1>
-            <p class="skill-info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur, delectus!</p>
-        </div> -->
+           
         <span class="icons"><i class="devicon-javascript-plain"></i>Javascript</span>
                     <span class="icons"><i class="devicon-java-plain-wordmark"></i>Java</span>
                     <span class="icons"><i class="devicon-html5-plain-wordmark"></i>HTML5</span>
