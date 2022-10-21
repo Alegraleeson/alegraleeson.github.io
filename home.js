@@ -136,7 +136,7 @@ function displayProjects (){
                     <p class ="project-info">TECH STACK: JAVA, HIBERNATE, MAVEN, SPRING BOOT, postgreSQL, JAVASCRIPT, HTML5, CSS3, BOOTSTRAP</p>
                     <p class="project-info">Collection Connection is the premier app to help you store data about your collections.  </p>
                 <div class="project-btn-grp">
-                    <a class="project-btn github" href="https://github.com/Alegraleeson/dinner-picker" target="_blank" rel="noreferrer noopener">github repo</a>
+                    <a class="project-btn github" href=" https://github.com/Alegraleeson/collectionconnection" target="_blank" rel="noreferrer noopener">github repo</a>
                     <a class="project-btn github" href="https://www.youtube.com/watch?v=SwobOo3NSX4" target="_blank" rel="noreferrer noopener">view demo</a>
                     <a id="coming-soon" class="project-btn live" onclick="showAlert()" >see live</a>
                 </div>
